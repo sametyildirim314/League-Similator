@@ -846,6 +846,8 @@ func SimulateAllRemainingMatches(c *fiber.Ctx) error {
 	})
 }
 
+s
+
 // generateFixtures generates fixtures for the league
 func generateFixtures() error {
 	// Get all teams
