@@ -17,11 +17,11 @@ A REST API for simulating a Premier League season with four teams, following Pre
 
 - Go 1.19+
 - PostgreSQL 14+
-- Docker and Docker Compose (recommended for easy setup)
+- Docker and Docker Compose 
 
 ## Setup
 
-### Using Docker (Recommended)
+### Using Docker 
 
 The easiest way to run the application is using Docker Compose:
 
@@ -106,6 +106,4 @@ curl -X POST http://localhost:8081/api/system/reset
 curl -X POST http://localhost:8081/api/matches/simulate-all
 ```
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
