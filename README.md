@@ -19,19 +19,6 @@ A REST API for simulating a Premier League season with four teams, following Pre
 - PostgreSQL 14+
 - Docker and Docker Compose 
 
-## Setup
-
-### Using Docker 
-
-The easiest way to run the application is using Docker Compose:
-
-```bash
-# Start all services (PostgreSQL, pgAdmin and the application)
-docker compose up -d
-
-# Stop and remove services
-docker compose down
-```
 
 The API will be available at `http://localhost:8081`.
 
