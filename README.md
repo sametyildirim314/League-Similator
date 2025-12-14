@@ -20,7 +20,7 @@ A REST API for simulating a Premier League season with four teams, following Pre
 - Docker and Docker Compose 
 
 
-The API will be available at `http://localhost:8081`.
+
 
 
 ## Database Access
