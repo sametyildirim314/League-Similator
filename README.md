@@ -13,15 +13,6 @@ A REST API for simulating a Premier League season with four teams, following Pre
 - Sequential week simulation (previous weeks must be simulated first)
 - Automatic championship predictions after week 4 and on all subsequent week simulations
 
-## Requirements
-
-- Go 1.19+
-- PostgreSQL 14+
-- Docker and Docker Compose 
-
-
-
-
 
 ## Database Access
 
