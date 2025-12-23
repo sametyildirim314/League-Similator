@@ -54,16 +54,5 @@ All API endpoints can be easily tested using Postman or any other API client:
 5. Click "Send" to execute the request
 
 
-## System Reset
-
-If you want to reset the system and start a new simulation:
-
-```bash
-# Reset the system
-curl -X POST http://localhost:8081/api/system/reset
-
-# Start simulation (will automatically generate fixtures)
-curl -X POST http://localhost:8081/api/matches/simulate-all
-```
 
 
