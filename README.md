@@ -14,24 +14,6 @@ A REST API for simulating a Premier League season with four teams, following Pre
 - Automatic championship predictions after week 4 and on all subsequent week simulations
 
 
-## Database Access
-
-- pgAdmin will be available at `http://localhost:5050`:
-  - Email: admin@admin.com
-  - Password: admin
-
-To connect to the database through pgAdmin:
-
-1. Login to pgAdmin
-2. Right-click on "Servers" and select "Register > Server"
-3. On the "General" tab, give it a name (e.g., "Premier League")
-4. On the "Connection" tab, enter:
-   - Host: postgres (if connecting from Docker) or localhost (if connecting from host)
-   - Port: 5432
-   - Maintenance database: premier_league
-   - Username: postgres
-   - Password: postgres
-5. Click "Save"
 
 ## API Endpoints
 
